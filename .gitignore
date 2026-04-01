@@ -1,0 +1,31 @@
+# Python .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# virtualenv
+.venv/
+venv/
+
+# env files
+.env
+
+# Distribution / packaging
+*.egg-info/
+
+# MacOS files
+.DS_Store
+
+# Raw data
+/data/raw/
+
+# Models
+/models/
+
+# Jupyter Notebook checkpoints
+/notebooks/.ipynb_checkpoints/
+
+# Other common Python/ML artifacts
+*.pkl
+*.model
